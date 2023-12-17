@@ -56,7 +56,7 @@ Contributions to improve or extend this implementation are welcome. To contribut
 
 ##-------------------------------------------------------------------
 
-# 1: Python implementation of A pathfinding algorithm:
+# A* Pathfinding Algorithm with Python
 This repository contains a Python code for finding the shortest path in a grid using the A* algorithm. 
 It uses the Manhattan distance as the heuristic.
 
@@ -67,8 +67,8 @@ It uses the Manhattan distance as the heuristic.
 
 ## Grid Definition
  The script defines a grid representing a map, where:
- ### 0 indicates a traversable cell.
- ### 1 indicates an obstacle or non-traversable cell.
+  ### '0' indicates a traversable cell.
+  ### '1' indicates an obstacle or non-traversable cell.
  
  ## A* Algorithm Implementation
   The __astar()__ function executes the A* algorithm to find the shortest path:
