@@ -64,6 +64,19 @@ It uses the Manhattan distance as the heuristic.
   * Supports diagonal movements
   * Handles obstacles in the grid
   * Returns the shortest path as a list of coordinates
+
+## Grid Definition
+ The script defines a grid representing a map, where:
+ ### 0 indicates a traversable cell.
+ ### 1 indicates an obstacle or non-traversable cell.
+ 
+ ## A* Algorithm Implementation
+  The __astar()__ function executes the A* algorithm to find the shortest path:
+  
+  * It uses the Manhattan distance heuristic to estimate the cost between nodes.
+  * Determines valid movements: up, down, left, right, and diagonals.
+  * Reconstructs the shortest path from start to goal using a came_from dictionary.
+  * 
 ## Usage:
   * Clone the repository.
   * Install the heapq library (pip install heapq).
